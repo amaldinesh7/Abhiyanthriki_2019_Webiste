@@ -1,0 +1,761 @@
+#particles-js{
+    overflow:hidden !important;
+}
+
+.login{
+    background-color: #fff;
+    width: max-content;
+    padding: 2em;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 0 auto;
+    font-family:"Quicksand", sans-serif;
+    width: 30%;
+    position: fixed;
+    top: 28%;
+    left: 35%;
+}
+
+.accounts{
+    font-family:"Quicksand",
+    sans-serif;
+    position: fixed;
+    top:0;
+    left:0;
+    color:#fff;
+    width:100%;
+    margin:0 auto;
+    background:rgb(0,0,0,0.7);
+    height:100vh;
+}
+
+.remove-left{
+    padding-left:0;
+}
+
+.register{
+    background-color: #fff;
+    width: max-content;
+    padding: 2em;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 0 auto;
+    font-family: "Quicksand",
+    sans-serif;
+    width: 40%;
+    position: fixed;
+    top: 10%;
+    left: 30%;
+}
+
+@media (max-height:500px){
+    .register{
+        padding:1.1em !important;
+        width: 90% !important;
+        top: 1% !important;
+        left: 5% !important;
+    }
+    
+    .register-btn{
+        padding: 10px !important;
+        margin-top: 0.3em !important;
+    }
+}
+
+@media (min-height:501px) and (max-height:600px){
+    .register{
+        top: 5% !important;
+        padding:1.2em !important;
+    }
+}
+
+.alert-danger{
+    font-family: "Quicksand", sans-serif;
+    width: 40% !important;
+    position: fixed !important;
+    top: 1em !important;
+    left: 28% !important;
+    text-align: center;
+}
+
+.left-menu{
+    background:rgb(255,255,255,0.2);
+    height:100vh;
+}
+
+.left-menu > ul{
+    padding-top:2em;
+}
+
+.login-label{
+    font-size: 1.5em;
+    vertical-align: middle;
+    font-family:"Quicksand", sans-serif;
+    color:rgb(0,0,0,0.7);
+}
+
+.login-label-r {
+    font-size: 17px;
+    font-family: "Quicksand",
+    sans-serif;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.login-fields{
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+    width: 95%;
+}
+
+.login-fields-r{
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 65%;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+input[type=radio]{
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    width: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+.field1{
+    margin-left: 35px;
+}
+
+.radio{
+    font-size:16px;
+}
+
+.push-right{
+    margin-left:7.8em;
+}
+
+.field2 {
+    margin-left: 3.4em;
+}
+
+.radio{
+    color:#000;
+}
+
+.field3 {
+    margin-left: 8.1em;
+}
+
+.field4 {
+    margin-left: 3em;
+}
+
+.field5 {
+    margin-left: 7.3em;
+}
+
+.field6 {
+    margin-left: 1.4em;
+}
+
+.login-btn, .register-btn{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: #8A2387;
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+    color: #fff;
+    outline:none;
+    cursor:pointer;
+    font-size:16px;
+    margin-bottom:1em;
+    width: 40%;
+    margin-left:4px;
+    margin-top:1.5em;
+}
+
+.register-btn{
+    margin-left:9em;
+}
+
+.login-links,
+.login-links:hover {
+    color:#000;
+    text-decoration: none;
+}
+
+.drops{
+    font-size: 15px;
+    padding: 10px;
+    background: rgb(255, 255, 255, 0.3);
+}
+
+.left-menu > ul> li{
+    padding: 10px;
+    font-size: 14px;
+    cursor:pointer;
+    border: 1px solid transparent;
+}
+
+.left-menu > ul > li:hover{
+    border: 1px solid white;
+    background-color:rgb(255,255,255,0.1);
+    text-decoration:none;
+}
+
+.drops > li > a{
+    text-decoration: none;
+    color:#FFF;
+}
+
+.drops>li>a:hover{
+    text-decoration:underline;
+}
+
+.special-a{
+    text-decoration: none;
+    color:#FFF;
+}
+
+.special-a:hover{
+    text-decoration:underline;
+    color:#FFF;
+}
+
+.fa-plus{
+    float:right;
+}
+
+.list-header{
+    font-size:16px !important;
+}
+
+.event-list, .workshop-list{
+    border: 1px solid white;
+    height: 100px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 5px;
+    overflow-y:auto;
+}
+
+.list-ul{
+    padding:14px;
+}
+
+.list-ul > li{
+    color: #000;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 60%;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 5px;
+}
+
+/* .work-drop, .tech-drop, .nontech-drop{
+    display:none;
+} */
+
+.detail-box{
+    border: 1px solid white;
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 4px;
+    background: rgb(255, 255, 255, 0.1);
+}
+
+@media (min-width:100px) and (max-width:500px){
+    .detail-box{
+        overflow:scroll;
+    }
+}
+
+.detail-box>form>label,
+.detail-box>form>p {
+    font-size: 16px;
+}
+
+.detail-box > form > input{
+    outline: none;
+    background: rgb(255, 255, 255, 0.2);
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom:1em;
+    width:50%;
+}
+
+#field-1{
+    margin-left: 10em;
+}
+
+#field-2 {
+    margin-left: 7.3em;
+}
+
+#field-3 {
+    margin-left: 10.4em;
+}
+
+#field-4{
+    margin-left: 3.6em;
+}
+
+#field-5{
+    margin-left: 5.2em;
+}
+
+#field-6 {
+    margin-left: 9.4em;
+}
+
+#field-7 {
+    margin-left: 5em;
+}
+.page-top > a> i{
+    color: #fff;
+    font-size: 2em;
+    position: fixed;
+    left: 3em;
+    top: 1.9em;
+    cursor: pointer;
+}
+
+.page-top > h1{
+    display: inline;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 3em;    
+    font-family: "Quicksand",
+    sans-serif;
+    position: fixed;
+    left: 3em;
+    top: 1em;
+}
+
+.page-bg{
+    background-color:transparent !important;
+}
+
+.display{
+    background: rgba(255,255,255,0.8) !important;
+    color: black;
+    padding: 1em;
+    border: 1px solid white;
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 4px;
+    top: 3em;
+    overflow:hidden;
+}
+
+/* Backgrounds */
+/* .ai{
+    background-image:url('../images/icons/ai.png') !important;
+    background-repeat:no-repeat;
+    background-position:left top;
+    background-size:cover;
+}
+
+.aperture{
+    background-image:url('../images/bg/aperture.png') !important;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.deeplearning {
+    background-image: url('../images/bg/deep.png') !important;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.webapp {
+    background-image: url('../images/bg/web.png') !important;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.unobotics {
+    background-image: url('../images/bg/unobotics.png') !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.autofeasta {
+    background-image: url('../images/bg/autofeasta.jpg') !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.threedprinting {
+  background: url('../images/bg/3dprinting.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cosmowars {
+    background: url('../images/bg/cosmowars.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.reversecode {
+    background: url('../images/bg/reverse.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.avishkar {
+    background: url('../images/bg/avishkar.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.burnout {
+    background: url('../images/bg/burnout.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.offset{
+    background: url('../images/bg/offset.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.closedcircuit{
+    background: url('../images/bg/closed.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.projectexpo{
+    background: url('../images/bg/projectexpo.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.science-expo{
+    background: url('../images/bg/science.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.art {
+    background: url('../images/bg/art.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.shakeit{
+    background: url('../images/bg/shakeit.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.brickit {
+    background: url('../images/bg/brickit.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.robosoccer{
+    background: url('../images/bg/robosoccer.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.maze {
+    background: url('../images/bg/maze.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.code-uno {
+    background: url('../images/bg/codeuno.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.birdboxcoding {
+    background: url('../images/bg/birdbox.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cad-it {
+    background: url('../images/bg/birdbox.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.codeandslay {
+    background: url('../images/bg/codeandslay.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.survivorbrain {
+    background: url('../images/bg/survivor.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.rattle {
+    background: url('../images/bg/rattle.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.connect-to-connect{
+    background: url('../images/bg/connect.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.filmyquiz {
+    background: url('../images/bg/filmy.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.battlezone {
+    background: url('../images/bg/pubg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.treasure {
+    background: url('../images/bg/treasure.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.rubikscube{
+    background: url('../images/bg/rubiks.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+.top-section > p{
+    display: inline;
+    margin: 0em 1em;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    /* border-radius: 4px; */
+    cursor: pointer;
+    font-family: "Quicksand",
+    sans-serif;
+    transition:0.4s all;
+}
+
+.top-section > p:hover{
+    background-color: #000;
+    color:#FFF;
+    border-radius: 4px;
+}
+
+.top-section{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.content-section > p{
+    font-family: "Quicksand",
+    sans-serif;
+}
+
+.e-description, .e-rules, .e-register, .e-contact, .intro{
+    font-family:"Quicksand", sans-serif;
+}
+
+.content-section{
+    height: 20em;
+    overflow:auto;
+    margin-top: 2em;
+    padding: 1em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* .intro{
+    opacity:1;
+} */
+
+.error-activate-element{
+    position: fixed;
+    background: rgba(255,255,255,0.2);
+    top: 40%;
+    left: 30%;
+    padding: 2em;
+    border-radius: 4px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: "Quicksand",
+    sans-serif;
+}
+
+.activate-element{
+    position: fixed;
+    background: #fff;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    padding: 2em;
+    border-radius: 4px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Quicksand",
+    sans-serif;
+}
+
+.acti-no{
+    left: 23em !important;
+}
+
+.error-activate-element > a{
+    text-decoration: none;
+    color:rgb(192, 12, 12);
+}
+
+.error-activate-element > a:hover{text-decoration: underline;}
+
+.code-field{
+    outline: none;
+    padding: 10px 15px;
+    padding-left: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.code-submit{
+    padding: 11px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    width: 30%;
+    background:#000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.a-button{
+    border: 1px solid black;
+    border-radius: 4px;
+    color: #000;
+    padding: 5px 30px;
+    font-family: "Quicksand",
+    sans-serif;
+    background: #fff;
+    transition: 0.4s all;
+    outline: none;
+    cursor: pointer;
+}
+
+.a-button:hover{
+    background:#000;
+    color:#fff;
+}
+
+.a-button > a{
+    color:#000 !important;
+    text-decoration:none;
+}
+
+.a-button >a:hover{
+    color:#fff !important;
+    text-decoration:none;
+}
+.a-button:hover > a{
+    color: #fff !important;
+}
+
+@media (min-width:100px) and (max-width:500px){
+    .alert-danger {
+    font-family: "Quicksand", sans-serif;
+    width: 75% !important;
+    position: fixed !important;
+    top: 1em !important;
+    left: 14% !important;
+    text-align: center;
+}
+
+.error-activate-element {
+    position: fixed;
+    background: rgba(255,255,255,0.2);
+    top: 30%;
+    left: 0%;
+    padding: 2em;
+    border-radius: 4px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+}
