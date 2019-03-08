@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="deeplearning">
+<head>
+    <title>CEH | Abhiyanthriki</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Gyanith '19 is the second version of single technical symposium of NIT Puducherry.">
+    <meta name="author" content="Web Team Gyanith,NIT Py" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="Gyanith,gyanith nitpy,nitpy,gyanith, gyanith19, gyanith 2019, college, tech festival, techfest, nit tech fest">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+        <meta http-equiv ="cache-control" content="no-cache">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="expires" content="0">
+
+    <link rel="icon" type="image/png" href="assets/images/icons/gyanith-icon.png" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="assets/js/particles.min.js"></script>
+    <link rel="manifest" href="assets/images/icons/manifest.json">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/gy19.css">        
+    <link rel="stylesheet" href="assets/css/stars.css">
+</head>
+<body class="page-bg">        
+    <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+    <div class="page-top">
+        <a href="workshops.html"><i class="fas fa-arrow-left"></i></a>
+        <h1>Ethical hacking workshop CEH</h1>
+    </div>
+    <div class="container">
+        <div class="display ap">
+            <div class="top-section">
+                <p class="header-1">Description</p>
+                <p class="header-3">Register</p>
+                <p class="header-4">Contact Us</p>
+            </div>
+            <div class="content-section">
+                <p class="intro">
+                    
+                </p>
+                <div class="e-description">
+                    <p>
+                        
+                        <strong>Ethical Hacking Workshop</strong> mainly focuses on the students eager to be a White Hat Hacker. It features a brief introduction to the world of hacking starting with the importance of ethical 
+                        hackers and their need in today’s world scenario. This workshop will help learn what is ethical hacking, it focuses on: <br>
+                        -Android Hacking<br>
+                        -Windows RAT<br>
+                        -Phishing<br>
+                        -SQL Injection<br>
+                        -Steganography<br>
+                        Students with personal laptops will be guided in installing VMWare and downloading the ISO files.
+                        After brief introduction on Ethical Hacking the students will be given a hands on experience in the above listed domains.
+                        <br><br>
+                        <strong>Category : Hands-on workshop
+                        <br><br>
+                        Resource : Internal resource</strong>
+
+                    </p>
+                    <p>Dates: 28 February - 1 March 2019</p>
+                </div>
+
+                <div class="e-register">
+                    <div class="row">
+                        <div class="col-lg-6 left-acc">
+                            <p><STRONG> Registration fee per person </STRONG>: <br><strong>₹ 450 </strong> (CSI Members) <br><strong>₹ 500</strong> (NON CSI )</p>
+                            <form action="register_form.php?id=124" method="post" enctype="multipart/form-data" autocomplete="false" class="trans">
+                                <input type="submit" value="Register!" name="pay-now-btn">
+                            </form>
+                        </div>
+                        <div class="col-lg-6 right-acc">
+                        </div>
+                    </div>
+                </div>
+                <div class="e-contact">
+                    <p>In case of any Queries or for Registration, feel free to contact us : <br><br></p>
+                    <li>David Joseph Johnson</li>
+                    <div class = 'contact-info' style = "text-decoration:none; color:inherit;">
+                        <ul style = "list-style-type:none;">
+                            <li>Email : <a href = "mailto:ucsantosh@gmail.com" style = "color:black;">ucsantosh@gmail.com</a></li>
+                            <li>Phone : <a href = "tel:9585112358" style = "color:black;">+91-9585112358</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>    
+    <script src="assets/js/prefixfree.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.e-description').hide();
+            // $('.e-rules').hide();
+            $('.e-register').hide();
+            $('.e-contact').hide();
+
+            $('.header-1').click(function(){
+                $('.e-description').fadeIn();
+                $('.intro').css("display", "none");
+                $('.e-rules').css("display", "none");
+                $('.e-register').css("display", "none");
+                $('.e-contact').css("display", "none");
+            });
+
+            // $('.header-2').click(function(){
+            //     $('.e-description').css("display", "none");
+            //     $('.intro').css("display", "none");
+            //     $('.e-rules').fadeIn();
+            //     $('.e-register').css("display", "none");
+            //     $('.e-contact').css("display", "none");
+            // });
+
+            $('.header-3').click(function(){
+                $('.e-description').css("display", "none");
+                $('.e-rules').css("display", "none");
+                $('.e-register').fadeIn();
+                $('.e-contact').css("display", "none");
+                $('.intro').css("display", "none");
+            });
+
+            $('.header-4').click(function(){
+                $('.e-description').css("display", "none");
+                $('.e-rules').css("display", "none");
+                $('.e-register').css("display", "none");
+                $('.e-contact').fadeIn();
+                $('.intro').css("display", "none");
+            });
+        });
+    </script>
+</html>

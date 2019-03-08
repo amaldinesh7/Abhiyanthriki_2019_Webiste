@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<!-- Background images need to be added -->
+
+
+<html lang="en">
+	<head>
+		<title>Brick It | Gyanith 19</title>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Gyanith '19 is the second version of single technical symposium of NIT Puducherry.">
+		<meta name="author" content="Web Team Gyanith,NIT Py" />
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="keywords" content="Gyanith,gyanith nitpy,nitpy,gyanith, gyanith19, gyanith 2019, college, tech festival, techfest, nit tech fest">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <meta http-equiv ="cache-control" content="no-cache">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="expires" content="0">
+
+        <link rel="icon" type="image/png" href="assets/images/icons/gyanith-icon.png" sizes="32x32">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <script src="assets/js/particles.min.js"></script>
+        <link rel="manifest" href="assets/images/icons/manifest.json">
+        <link rel="stylesheet" href="assets/css/login.css">
+<link rel="stylesheet" href="assets/css/gy19.css">        
+<link rel="stylesheet" href="assets/css/stars.css">
+	</head>
+    <body class="page-bg">        
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div class="page-top">
+            <a href="technical.html"><i class="fas fa-arrow-left"></i></a> 
+            <h1>Brick It</h1>
+        </div>
+        <div class="container">
+            <div class="display ap">
+                <div class="top-section">
+                    <p class="header-1">Description</p>
+                    <p class="header-2">Rules and Regulations</p>
+                    <p class="header-3">Register</p>
+                    <p class="header-4">Contact Us</p>
+                </div>
+                <div class="content-section">
+                    <p class="intro"><strong>Make it, brick it!</strong></p>
+                    <div class="e-description">
+                        <p>
+                            The chance to give a redemption to your creative side. A plan to give your creativity a chance of collaboration with the <strong>structural engineering</strong>.
+                            Bricks glue together to end up into a massive structure. <strong>We will give you bricks, you will give us the masterpiece of your art</strong>.
+                            Join hands with the event presented to you by the <strong>Department of Civil Engineering, NITPY</strong>.
+                            Grab your chance to make it big.
+                            <strong>BRICKIT!!</strong>
+                        </p>
+                        <p>Dates: 1 March, 2019</p>
+                    </div>
+                    <div class="e-rules">
+                        <p> The rules for the event are : <br></p>
+							<ul>
+								<li><strong>Team event</strong>. A team can only  have a maximum of <strong>3 members</strong>.
+								<li>The event consists of <strong>3 rounds</strong>.
+								<li>Each round has <strong>different conditions</strong> which are given to the contestants <strong>before the initiation</strong> of each round.
+								<li>Eliminations will be conducted <strong>round-wise</strong> for those who <strong>don't adhere</strong> to the conditions provided.
+								<li>Not more than <strong>3 teams of the same college</strong> are allowed to participate.
+								<li>Participants must report at the venue atleast <strong>15 minutes before</strong> the commencement of the event.
+								<li>Competition head / coordinator has the right to disqualify any team in any case.
+								<li>Judges will analyze performance. Results will be <strong>final and unobjectionable</strong>
+								<li>Maximum two teams will be allowed from one college.</li>
+								<li>Each team must have atleast one Civil Engineer.</li>
+							</ul>
+                    </div>
+                    <div class="e-register">    
+                        <p>Registration Cost: Rs. 10/per team</p>
+                        <form action="register_form.php?id=135" method="post" enctype="multipart/form-data" autocomplete="false" class="trans">
+                            <input type="submit" value="Register for Two!" name="pay-now-btn">
+                        </form>
+                        <form action="register_form.php?id=134" method="post" enctype="multipart/form-data" autocomplete="false" class="trans">
+                            <input type="submit" value="Register for Three!" name="pay-now-btn">
+                        </form>
+                    </div>  
+                    <div class="e-contact">
+                        <p> In case of any Queries or for Registration, feel free to contact us : <br><br></p>
+						<ul style = "list-style-type:none">
+                            <li>Zaid</li>
+                            <div class = 'contact-info' style = "text-decoration:none; color:inherit;">
+                                <ul style = "list-style-type:none;">
+                                    <li>Email : <a href = "mailto:zaidakhtar313@gmail.com" style = "color:black;">zaidakhtar313@gmail.com</a></li>
+                                    <li>Phone : <a href = "tel:7798778687" style = "color:black;">+91-7798778687</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>    
+    <script src="assets/js/prefixfree.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.e-description').hide();
+            $('.e-rules').hide();
+            $('.e-register').hide();
+            $('.e-contact').hide();
+
+            $('.header-1').click(function(){
+                $('.e-description').fadeIn();
+                $('.intro').css("display", "none");
+                $('.e-rules').css("display", "none");
+                $('.e-register').css("display", "none");
+                $('.e-contact').css("display", "none");
+            });
+
+            $('.header-2').click(function(){
+                $('.e-description').css("display", "none");
+                $('.intro').css("display", "none");
+                $('.e-rules').fadeIn();
+                $('.e-register').css("display", "none");
+                $('.e-contact').css("display", "none");
+            });
+
+            $('.header-3').click(function(){
+                $('.e-description').css("display", "none");
+                $('.e-rules').css("display", "none");
+                $('.e-register').fadeIn();
+                $('.e-contact').css("display", "none");
+                $('.intro').css("display", "none");
+            });
+
+            $('.header-4').click(function(){
+                $('.e-description').css("display", "none");
+                $('.e-rules').css("display", "none");
+                $('.e-register').css("display", "none");
+                $('.e-contact').fadeIn();
+                $('.intro').css("display", "none");
+            });
+        });
+    </script>
+</html>
