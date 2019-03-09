@@ -12,26 +12,23 @@ body {
 	height: 100%;
 }
 
-body {
-	
+.component {
+	background: rgba(0,0,0,0.05);
+	text-align: center;
 }
 
-.component {
-	position: relative;
-	padding-top:32%;
-	padding-bottom:8%;
-	background: rgba(0,0,0,0.05);
-	
+.content {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
 }
 
 
 .cn-button {
-	position: absolute;
-	top: 100%;
-	left: 50%;
 	z-index: 11;
-	margin-top: -2.25em;
-	margin-left: -2.25em;
+	margin-top: 5rem;
 	padding-top: 0em;
 	width: 4em;
 	height: 4em;
