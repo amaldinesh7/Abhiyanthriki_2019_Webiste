@@ -355,10 +355,10 @@ input[type=radio]{
 }
 
 .display{
-    background: rgba(255,255,255,0.8) !important;
+    background: rgba(255,255,255,0.6) !important;
     color: black;
     padding: 1em;
-    border: 1px solid white;
+    border: 0px solid rgba(255,255,255,0.6);
     width: 75%;
     margin: 0 auto;
     position: relative;
@@ -699,7 +699,7 @@ input[type=radio]{
 .code-submit{
     padding: 11px;
     border-radius: 4px;
-    border: 1px solid #fff;
+
     width: 30%;
     background:#000;
     color: #fff;
@@ -707,7 +707,7 @@ input[type=radio]{
 }
 
 .a-button{
-    border: 1px solid black;
+    
     border-radius: 4px;
     color: #000;
     padding: 5px 30px;
