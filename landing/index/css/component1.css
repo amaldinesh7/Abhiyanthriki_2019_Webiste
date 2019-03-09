@@ -83,8 +83,6 @@ body {
   background-color: #fff;
   position: fixed;
   left: 50%;
-  margin-left: -1.75em;
-  bottom: -1.75em;
   border-radius: 50%;
   cursor: pointer;
   z-index: 11;
